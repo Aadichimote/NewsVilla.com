@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
   static propTypes = {
@@ -15,9 +15,9 @@ export default class Navbar extends Component {
       <div>
         <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}>
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               NewsVilla
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -35,14 +35,15 @@ export default class Navbar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <Link className="nav-link active" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
-                <li className="nav-item ">
-                  <a className="nav-link" href="/">
+                <li className="nav-item">
+                  {/* Updated link to the About page */}
+                  <Link className="nav-link" to="/About">
                     About
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="form-check form-switch">

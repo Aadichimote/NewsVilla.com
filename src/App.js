@@ -1,11 +1,12 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Navbar from './component/Navbar';
 import Newsitem from './component/Newsitem';
-import About from './component/About'; // Import the About component
+import About from './component/About';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
-  let [mode, setMode] = useState('light');
+  const [mode, setMode] = useState('light');
 
   const toggleMode = () => {
     if (mode === 'light') {
@@ -20,11 +21,15 @@ function App() {
   };
 
   return (
-    <>
-      <Navbar mode={mode} toggleMode={toggleMode} />
-      <Newsitem />
-      <About /> {/* Render the About component */}
-    </>
+    <Router>
+      <div>
+        <Navbar mode={mode} toggleMode={toggleMode} />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Newsitem />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* CSS for Newscard Component */
+
+/* Adjust card title and description styles */
+.card-title {
+  font-size: 1.25rem; /* Adjust font size */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-text {
+  font-size: 1rem; /* Adjust font size */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Ensure images within cards are responsive */
+.card-img-top {
+  width: 100%; /* Make image width 100% */
+  height: auto; /* Automatically adjust height */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Add margin and padding for spacing */
+.card {
+  margin-bottom: 20px; /* Add bottom margin */
 }
 
-.App-link {
-  color: #61dafb;
+/* Add hover effect */
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transition: box-shadow 0.3s ease; /* Add transition effect */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Adjust button size and margin */
+.btn {
+  font-size: 0.9rem; /* Adjust font size */
+  margin-top: 10px; /* Add top margin */
+  padding: 0.5rem 1.5rem; /* Adjust padding */
+}
+
+/* Adjust button size for small screens */
+@media (max-width: 768px) {
+  .btn {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    padding: 0.4rem 1.2rem; /* Adjust padding for smaller screens */
   }
 }

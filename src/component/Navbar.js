@@ -15,7 +15,7 @@ export default class Navbar extends Component {
       <div>
         <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}>
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" style={{cursor:"none"}} to="/">
               NewsVilla
             </Link>
             <button

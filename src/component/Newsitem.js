@@ -143,7 +143,6 @@ export default class Newsitem extends Component {
   ];
   constructor() {
     super();
-    console.log("Hello an a constructor ");
     this.state = {
       articles: this.articles,
       loading: false,

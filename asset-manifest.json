@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NewsVilla.com/static/css/main.b884ad2c.css",
+    "main.js": "/NewsVilla.com/static/js/main.b9f5991b.js",
+    "static/js/453.0438d46a.chunk.js": "/NewsVilla.com/static/js/453.0438d46a.chunk.js",
+    "index.html": "/NewsVilla.com/index.html",
+    "main.b884ad2c.css.map": "/NewsVilla.com/static/css/main.b884ad2c.css.map",
+    "main.b9f5991b.js.map": "/NewsVilla.com/static/js/main.b9f5991b.js.map",
+    "453.0438d46a.chunk.js.map": "/NewsVilla.com/static/js/453.0438d46a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b884ad2c.css",
+    "static/js/main.b9f5991b.js"
+  ]
+}

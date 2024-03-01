@@ -1,7 +1,7 @@
-##aleart
+##Aleart
 
-i created a react app sucessfully but [app link]([https://github.com/facebook/create-react-app](https://aadichimote.github.io/NewsVilla.com/)).
-but there is deployment problem , if  you open the app in mobie device its give blank page so go to 3 line and click on home its gonna work fine .....Thank you...
+I created a react app sucessfully but [app link]([https://github.com/facebook/create-react-app](https://aadichimote.github.io/NewsVilla.com/)).
+But there is deployment problem , If  you open the app in mobie device its give blank page so go to 3 line and click on home its gonna work fine .....Thank you...
 prosess to download packagees <h3> enjoy</h3>
 
 # Getting Started with Create React App

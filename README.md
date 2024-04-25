@@ -1,6 +1,6 @@
 ##Aleart
 
-I created a react app sucessfully but [app link.(https://aadichimote.github.io/NewsVilla.com/)
+I created a react app sucessfully but [app link.(https://aadichimote.github.io/NewsVilla.com/)]
 But there is deployment problem , If  you open the app in mobie device api is not reloding so you can access  it smoothly on laptop or pc.It give blank page so go to 3 line and click on home its gonna work fine .....Thank you...
 prosess to download packagees <h3> enjoy</h3>
 
